@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="10dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:background="@drawable/sshape"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/user" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/josefinsans_semibold"
+                        android:paddingTop="5dp"
+                        android:text="Md Forkan"
+                        android:textColor="#232323"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/josefinsans_regular"
+                        android:text="Registered"
+                        android:textColor="#232323"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/josefinsans_regular"
+                        android:text="Bachelor of Science in CSE"
+                        android:textColor="#1B1A1A"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="10dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TableRow
+                            android:background="#1AED1C24"
+                            android:padding="8dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/josefinsans_regular"
+                                android:text="Student ID:"
+                                android:textColor="#434141"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/josefinsans_regular"
+                                android:text="193003038"
+                                android:textColor="#434141"
+                                android:textSize="16sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:background="#1A3700B3"
+                            android:padding="8dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/josefinsans_regular"
+                                android:text="Student Name:"
+                                android:textColor="#434141"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/josefinsans_regular"
+                                android:text="Md Forkan"
+                                android:textColor="#434141"
+                                android:textSize="16sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:background="#1AED1C24"
+                            android:padding="8dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/josefinsans_regular"
+                                android:text="Status:"
+                                android:textColor="#434141"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/josefinsans_regular"
+                                android:text="Registered"
+                                android:textColor="#434141"
+                                android:textSize="16sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:background="#1A3700B3"
+                            android:padding="8dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/josefinsans_regular"
+                                android:text="Admission Semester:"
+                                android:textColor="#434141"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/josefinsans_regular"
+                                android:text="Fall-19"
+                                android:textColor="#434141"
+                                android:textSize="16sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:background="#1AED1C24"
+                            android:padding="8dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/josefinsans_regular"
+                                android:text="Current Semester:"
+                                android:textColor="#434141"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/josefinsans_regular"
+                                android:text="Spring-22"
+                                android:textColor="#434141"
+                                android:textSize="16sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:background="#1A3700B3"
+                            android:padding="8dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/josefinsans_regular"
+                                android:text="Program:"
+                                android:textColor="#434141"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/josefinsans_regular"
+                                android:text="BSC in CSE"
+                                android:textColor="#434141"
+                                android:textSize="16sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:background="#1AED1C24"
+                            android:padding="8dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/josefinsans_regular"
+                                android:text="Credits Taken:"
+                                android:textColor="#434141"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/josefinsans_regular"
+                                android:text="16 Credits"
+                                android:textColor="#434141"
+                                android:textSize="16sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:background="#1A3700B3"
+                            android:padding="8dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/josefinsans_regular"
+                                android:text="Credits Completed:"
+                                android:textColor="#434141"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/josefinsans_regular"
+                                android:text="100 Credits"
+                                android:textColor="#434141"
+                                android:textSize="16sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:background="#1AED1C24"
+                            android:padding="8dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/josefinsans_regular"
+                                android:text="CGPA:"
+                                android:textColor="#434141"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/josefinsans_regular"
+                                android:text="3.72"
+                                android:textColor="#434141"
+                                android:textSize="16sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:background="#1A3700B3"
+                            android:padding="8dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/josefinsans_regular"
+                                android:text="Account Balance:"
+                                android:textColor="#434141"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/josefinsans_regular"
+                                android:text="-4700.00 tk"
+                                android:textColor="#434141"
+                                android:textSize="16sp" />
+                        </TableRow>
+
+                    </TableLayout>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:rotation="180"
+                android:scaleType="fitXY"
+                android:src="@drawable/sshape" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
