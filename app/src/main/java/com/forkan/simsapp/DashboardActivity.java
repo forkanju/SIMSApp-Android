@@ -13,6 +13,8 @@ public class DashboardActivity extends AppCompatActivity {
     private CardView profileCard;
     private CardView accounts_card;
     private CardView courses_card;
+    private CardView schedule;
+    private CardView teachers;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +28,8 @@ public class DashboardActivity extends AppCompatActivity {
         profileCard = findViewById(R.id.profile_card);
         accounts_card = findViewById(R.id.accounts_card);
         courses_card = findViewById(R.id.courses_card);
+        schedule = findViewById(R.id.schedule);
+        teachers = findViewById(R.id.teachers);
 
         homeCard.setOnClickListener(view -> {
             Intent intent = new Intent(DashboardActivity.this, HomeActivity.class);
@@ -45,7 +49,19 @@ public class DashboardActivity extends AppCompatActivity {
         courses_card.setOnClickListener(view -> {
             Intent intent = new Intent(DashboardActivity.this, CoursesActivity.class);
             startActivity(intent);
+
+        });
+
+        schedule.setOnClickListener(view -> {
+            Intent intent = new Intent(DashboardActivity.this, ScheduleActivity.class);
             startActivity(intent);
+
+        });
+
+        teachers.setOnClickListener(view -> {
+            Intent intent = new Intent(DashboardActivity.this, TeachersActivity.class);
+            startActivity(intent);
+
         });
 
     }
